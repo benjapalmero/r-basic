@@ -33,13 +33,13 @@ pi^2
 
 Inf
 
--Inf
+4-Inf
 
 NA
-
+ 
 NaN
 
-5/0
+5/0         
 
 0/0
 
@@ -57,10 +57,12 @@ exp(1)
 log(pi)
 
 log(32, 2)
-
+log(exp(1))
 log(32, base = 2)
+log(1000,  10)
 log(base=2, 32)
 
+log(pi)
 abs(-pi)
 
 factorial(7)
@@ -91,6 +93,10 @@ tan(pi/2) # 1.633124e+16 ~ Inf
 
 asin(0.8660254) #arc sin en radianes
 
+asin(0.8660254)
+
+asin(0.8660254)*180 /pi
+
 asin(0.8660254) * 180 /pi #arc sin en grados
 
 asin(5) #arc sin x in [-1,1]
@@ -117,7 +123,7 @@ print(pi, 22)
 round(1.25,1)
 round(1.35,1)
 round(sqrt(2),0)
-round(sqrt(2))
+round(sqrt(2),8)
 
 round(digits = 5, sqrt(2))
 round(5, sqrt(2))
